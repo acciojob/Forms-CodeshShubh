@@ -21,7 +21,7 @@ const FormRef = () => {
         <input type="email" id="email" placeholder="Email"/>
         <input type="password" id="password" placeholder="Password"/>
         <input type="password" id="password_confirmation" placeholder="Confirm Password" />
-        <button type="submit">submit</button>
+        <button type="submit">Submit</button>
       </form>
     </Card>
   );

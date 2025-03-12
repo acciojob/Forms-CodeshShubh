@@ -29,7 +29,7 @@ const FormState = () => {
         <input type="email" id="email" value={formData.email} placeholder="Email" onChange={onChangeHandler}/>
         <input type="password" id="password" value={formData.password} placeholder="Password" onChange={onChangeHandler}/>
         <input type="password" id="password_confirmation" value={formData.password_confirmation} placeholder="Confirm Password" onChange={onChangeHandler}/>
-        <button type="submit" onClick={formHandler}>submit</button>
+        <button type="submit" onClick={formHandler}>Submit</button>
       </form>
     </Card>
   )
