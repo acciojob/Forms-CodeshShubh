@@ -9,13 +9,13 @@ const App = () => {
     <BrowserRouter>
     <nav>
         <ul>
-            <li><Link to={'/'}>Static Form</Link></li>
+            <li><Link to={'/form'}>Static Form</Link></li>
             <li><Link to={'/ref'}>Form with useRef</Link></li>
             <li><Link to={'/state'}>Form with useState</Link></li>
         </ul>
     </nav>
     <Routes>
-        <Route path='/'  element={<Form/>} />
+        <Route path='/form'  element={<Form/>} />
         <Route path='/ref'  element={<FormRef/>} />
         <Route path='/state'  element={<FormState/>} />
     </Routes>
